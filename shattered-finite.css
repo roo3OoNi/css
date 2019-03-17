@@ -1,0 +1,218 @@
+@import url(https://bolditalic.org/webfonts/sanchezslab-wf.css);
+
+@import url(https://bolditalic.org/webfonts/sourcesanspro-wf.css);
+
+@import url(https://bolditalic.org/bib/shatter.css);
+
+html {
+    border-top: 2.5px solid rgb(229, 183, 243);
+}
+
+html, body {
+    font-size: 0.865em;
+}
+
+pre {
+    color: rgb(255, 201, 255);
+}
+
+code {
+    color: rgb(225, 138, 165);
+}
+
+a:hover, a:active {
+    color: rgb(229, 183, 243);
+}
+
+#pre_header a, #pre_header_nav a[href="http://bibliotik.me/conversations"]:after {
+    color: rgba(255, 255, 255, 0.88);
+}
+
+#pre_header a:hover, #pre_header_nav a[href="http://bibliotik.me/conversations"]:hover:after {
+    color: rgb(229, 183, 243) !important;
+}
+
+.comment_text a, .postContent a, .announcement a, #description a, .conversation_body a {
+    border-bottom: 1px solid rgba(229, 183, 243, 0.5);
+}
+
+span.ann_title {
+    color: rgb(229, 183, 243);
+}
+
+h4 {
+    color: rgb(229, 183, 243);
+}
+
+pre {
+    color: rgb(229, 183, 243);
+}
+
+#pre_header_nav a[href="http://bibliotik.me/conversations"] {
+    font-size: 0px;
+    color: transparent;
+}
+
+#pre_header_nav a[href="http://bibliotik.me/conversations"]:after {
+    content: 'Inbox';
+    font-size: 12px;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+#pre_header_nav a[href="http://bibliotik.me/conversations"]:hover:after {
+    color: #FDF9E8;
+}
+
+#header_logo:after {
+    color: rgb(229, 183, 243);
+}
+
+.title a:visited {
+    color: rgba(180, 158, 175, 0.5);
+}
+
+#detailsbox p:first-of-type {
+    color: rgb(229, 183, 243);
+}
+
+#detailsbox + h2 {
+    color: rgb(229, 183, 243);
+}
+
+.table_div table tbody tr:hover a {
+    color: rgb(229, 183, 243);
+}
+
+img[src^="http://bibliotik.me/static/smileys/"] {
+    top: -4px;
+    display: inline-block;
+    position: relative;
+    padding: 0 3px;
+}
+
+strong.newflag ~ span.title a {
+    color: rgb(104, 177, 198) !important;
+}
+
+/* Switch old and new message icons */
+
+img[src$="oldmessage.png"] {
+    display: block;    -moz-box-sizing: border-box;    box-sizing: border-box;
+    background: url(http://bibliotik.me/static/icons/newmessage.png) no-repeat;
+    width: 16px;
+    height: 12px;
+    padding-left: 16px;
+}
+
+img[src$="newmessage.png"] {
+    display: block;    -moz-box-sizing: border-box;    box-sizing: border-box;
+    background: url(http://bibliotik.me/static/icons/oldmessage.png) no-repeat;
+    width: 16px;
+    height: 12px;
+    padding-left: 16px;
+}
+
+form fieldset legend, legend[style="color:red;"] {
+    text-align: left;
+    color: rgb(229, 183, 243) !important;
+}
+
+#forumWrap ul li:after, h1 + ul li:after {
+    content: ' | ';
+    padding-left: 10px;
+}
+
+input[type="submit"]:hover,| input[type="submit"]:focus {
+    background-color: #737373;
+    cursor: pointer;
+}
+
+#footer #help ul li:last-of-type:after {
+    content: 'Shatter stylesheet made with love by interrobang | Purple edit by bolus';
+    color: rgb(229, 183, 243);
+}
+
+#requests_table tbody img[src^="http://bibliotik.me/static/icons"], #torrents_table tbody tr.torrent td:first-of-type img[src^="http://bibliotik.me/static/icons"] {
+    opacity: 0.2;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+form table td:nth-of-type(3) img[src^="http://bibliotik.me/static/icons"] {
+    opacity: 0.2;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#requests_table tbody tr:hover img[src^="http://bibliotik.me/static/icons"], #torrents_table tbody tr.torrent:hover td:first-of-type img[src^="http://bibliotik.me/static/icons"], form table tr:hover td:nth-of-type(3) img[src^="http://bibliotik.me/static/icons"] {
+    opacity: 1;
+}
+
+span[style="color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);"]:before, span[onmouseout="this.style.color=this.style.backgroundColor='#000'"]:hover:before, span[onmouseover="this.style.color='#FFFFFF';"]:before {
+    border-bottom: 1px solid rgb(229, 183, 243);
+}
+
+/* Fix Collections columns */
+#main #detailsbox + h2 + #gallery {
+    -moz-column-fill: balance;
+    column-fill: balance;
+}
+
+
+/* Vanity */
+.postInfo a[href="http://bibliotik.me/users/22891/"]:after, #pre_header_status a[href="http://bibliotik.me/users/22891"]:after, .lastEdited a[href="http://bibliotik.me/users/22891/"]:after, .conversation_table a[href="http://bibliotik.me/users/22891/"]:after, .forums a[href="http://bibliotik.me/users/22891/"]:after {
+    content: '?!';
+    visibility: visible;
+    font-size: 0.9rem;
+}
+
+.conversation_headline a[href="http://bibliotik.me/users/22891/"]:after {
+    content: '?!';
+    visibility: visible;
+    font-size: 1.1rem;
+}
+
+.postInfo a[href="http://bibliotik.me/users/22891/"], #pre_header_status a[href="http://bibliotik.me/users/22891"], .lastEdited a[href="http://bibliotik.me/users/22891/"], .conversation_headline a[href="http://bibliotik.me/users/22891/"], .conversation_table a[href="http://bibliotik.me/users/22891/"], .forums a[href="http://bibliotik.me/users/22891/"] {
+    visibility: hidden;
+    font-size: 0;
+}
+
+/* Colour background of retails: */ 
+span.torRetail, span.torRetail, span.title ~ strong {
+    background-color: rgba(157, 31, 111, 0.46) !important;
+    color: #a3f3b6 !important;
+}
+
+/* Colour star according to format: */
+tr.retail.epub-format .title:before {color:rgba(111,157,31, 0.83);}
+tr.retail.azw3-format .title:before {color:rgba(31,111,157, 0.98);}
+tr.retail.mobi-format .title:before {color:rgba(31,111,157, 0.68);}
+tr.retail.pdf-format .title:before {color:rgba(215, 50, 72, 0.95) ;}
+  
+tr.retail td:hover .title:after { all: unset }
+
+/* snatched tick */
+  tr.snatched a.snatches::after {
+    color: orange;
+    content: "\00a0\002713";
+}
+
+/* Fix hover text visibility */
+tr.seeding td:hover a.seeders::before, tr.snatched td:hover a.snatches::before, tr.leeching td:hover a.leechers::before {
+    color: black;
+    background: #6f6f6f;
+}
+
+.ann_hr, hr {
+    background: rgba(180, 158, 175, 0.85);
+}
