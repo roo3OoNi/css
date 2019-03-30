@@ -5,14 +5,13 @@
 @import url(https://gitcdn.link/repo/bmKsut49/stylesheet/master/shatter.css);
 
 
-    background: url(https://ptpimg.me/0ui20x.png) #232222 fixed;
-
 html {
     border-top: 2.5px solid rgb(229, 183, 243);
 }
 
 html, body {
     font-size: 0.865em;
+    background: url(https://ptpimg.me/0ui20x.png) #232222 fixed;
 }
 
 pre {
