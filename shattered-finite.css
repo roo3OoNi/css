@@ -1,8 +1,11 @@
-@import url(https://bolditalic.org/webfonts/sanchezslab-wf.css);
+@import url(https://gitcdn.link/cdn/bmKsut49/stylesheet/8cd9f15c62e597fb9013952df735135a56018f10/sanchezslab-wf.css);
 
-@import url(https://bolditalic.org/webfonts/sourcesanspro-wf.css);
+@import url(https://gitcdn.link/repo/bmKsut49/stylesheet/master/sourcesanspro-wf.css);
 
 @import url(https://gitcdn.link/repo/bmKsut49/stylesheet/master/shatter.css);
+
+
+    background: url(https://ptpimg.me/0ui20x.png) #232222 fixed;
 
 html {
     border-top: 2.5px solid rgb(229, 183, 243);
